@@ -172,7 +172,7 @@ def show_predict_page():
 
     #PLOT 4
 
-    st.write( """ #### Compare Average Food Price Over Time by Location
+    st.write( """ #### Compare Average US Imports Over Time by Location
              """)
     
     #Selecting Locations
@@ -187,12 +187,12 @@ def show_predict_page():
     # Plot
     fig4 = px.line(grouped_data, x='Date', y="Dollar Value ('000s')", 
               color='Category',
-              title='Average Price of Food by Location Over Time')
+              title='US Imports')
     
     fig4.update_layout(
         xaxis_title='Date',
-        yaxis_title='Average Price',
-        legend_title=dict(text='Location', font=dict(size=16)),
+        yaxis_title='Average Imports',
+        legend_title=dict(text='Category', font=dict(size=16)),
         xaxis=dict(
             tickmode='linear',
             tick0=grouped_data['Date'].min(),
