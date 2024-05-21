@@ -4,9 +4,9 @@
 
 The focus of my project is to get an understanding of the changes in Canadian Food Prices relative to imports from the United States, and the unemployment rates for various employment sectors. 
 
-The data used was gathered from Statistics Canada Website.  It ranges from January 2017 until March of 2024 on a monthly basis for Canada and various provinces.
+This project can provide useful insight for the general public, policy makers at various levels, and businesses. Individuals can better prepare for the future by understanding potential impacts on their budgets. Policymakers can use this project to identify and implement policies and regulations to enhance the quality of life in Canada. Businesses can use this analysis to make informed decisions on pricing strategies, supply chain management, and market positioning.
 
-This project can provide useful insight for the general public, policy makers at various levels, and businesses. ndividuals can better prepare for the future by understanding potential impacts on their budgets. Policymakers can use this project to identify and implement policies and regulations that enhance the quality of life in Canada. Businesses can use this analysis to make informed decisions on pricing strategies, supply chain management, and market positioning.
+The data used was gathered from Statistics Canada Website.  It ranges from January 2017 until March of 2024 on a monthly basis for Canada and various provinces.
 
 Statistics Canada. Table 18-10-0245-02  [Monthly average retail prices for selected products: Food](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810024502)
 
