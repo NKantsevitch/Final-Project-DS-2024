@@ -7,8 +7,6 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 
 
-#@st.cache_data # To prevent data from being loaded for every step
-
 def load_data():
     df_food = pd.read_csv('Data/Processed/df_food.csv')
     df_sector = pd.read_csv('Data/Processed/df_sector_imputed.csv')
@@ -241,9 +239,11 @@ def show_explore_page():
 
 
     fig_pie2.update_layout(title=f'Unemployment Rate Distribution by Sector for {unemployment_location}',
-                           annotations= [dict(text="Unemployment ('000s)", x=0.15, y=.85, showarrow=False), 
-                                         dict(text='Unemployment Rate', x=0.87, y=.85, showarrow=False)], 
-                           height=600, width=900)
+                           annotations= [dict(text="Disrtibution of<br>Unemployed Individuals ('000s)", 
+                                              x=0.08, y=.87, showarrow=False), 
+                                         dict(text='Distribution of<br>Unemployment Rates', 
+                                              x=0.87, y=.87, showarrow=False)], 
+                           height=600, width=950)
 
     #st.write("Average Unemployment ('000s):", sector_avg_unemployment)
     #st.write("Average Unemployment Rate:", sector_avg_unemployment_rate)
