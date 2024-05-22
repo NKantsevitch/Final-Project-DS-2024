@@ -16,4 +16,7 @@ Statistics Canada. Table 14-10-0022-01  [Labour force characteristics by industr
 
 ## App Link
 [Deployed App](https://final-project-ds-2024-food-prices.streamlit.app/)
+
+## Presentation Link
+[Google Slides](https://docs.google.com/presentation/d/1HnKYakqB416bhCiWwREcJ4Lr9e-tfSiKYHAQWTcFKFY/edit#slide=id.g2deb84138cb_0_0)
   
