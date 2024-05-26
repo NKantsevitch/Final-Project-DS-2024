@@ -1,8 +1,6 @@
 import streamlit as st
-#import altair as alt
 import pandas as pd
 import numpy as np
-#import seaborn as sns
 from datetime import datetime
 
 import plotly.express as px
@@ -145,13 +143,15 @@ def show_predict_page():
 
         corr = filt_df.drop(['Date', 'Location'], axis=1).corr()
 
+        colorscale = px.colors.sequential.Blues
+
         #mask = np.triu(np.ones_like(corr, dtype=bool))
 
         corr_values = corr.values.round(2)
 
         #corr_masked = corr_values.mask(mask)
 
-        fig3 = px.imshow(corr_values, x=corr.index, y=corr.columns, text_auto=True)
+        fig3 = px.imshow(corr_values, x=corr.index, y=corr.columns, text_auto=True, color_continuous_scale=colorscale)
         
         fig3.update_layout(title=(f'Correlation Heatmap for {location}'))
         
